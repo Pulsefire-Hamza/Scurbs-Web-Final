@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .spin-animation {
+    animation: spin 1s linear infinite;
+  }
+  /* Add this to your CSS file (e.g., styles.css or App.css) */
+
+
+/* Make sure this CSS is applied in your main stylesheet (e.g., App.css) */
+.Toastify__toast--success {
+  background-color: #F1A7C3 !important;  /* Soft pink background color */
+  color: #232323 !important;             /* Dark text for high contrast */
+  border-radius: 8px !important;         /* Rounded corners */
+  padding: 12px 24px !important;         /* Adequate padding for spacing */
+  font-weight: bold !important;          /* Bold text for better readability */
+  font-family: 'Arial', sans-serif !important; /* Clean, modern font */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important; /* Soft shadow for a floating effect */
+  display: flex;                          /* Use flexbox to align items horizontally */
+  align-items: center;                    /* Vertically center the content */
+  justify-content: flex-start;            /* Align items to the left */
+}
+
+.Toastify__toast--success .Toastify__toast-icon {
+  margin-right: 10px;                     /* Space between the icon and text */
+}
+
+.Toastify__toast--success .Toastify__toast-message {
+  font-size: 16px !important;             /* Slightly larger text size for readability */
+}
+
+.Toastify__toast--success .Toastify__toast-message strong {
+  font-size: 18px !important;             /* Bold the product name to highlight it */
+}
+
+.Toastify__toast--success .Toastify__toast-message span {
+  font-size: 14px !important;             /* Slightly smaller font for additional text */
+  color: #4caf50 !important;              /* Green color for success messages */
+}
