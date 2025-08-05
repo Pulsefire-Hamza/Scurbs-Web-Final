@@ -154,7 +154,7 @@ const ProductDetail = () => {
       description: `
     <p>
       Our wholesale foaming body scrub jars are perfect for both private event gifting and small business resellers. 
-      Each jar is filled with <strong>300g of luxurious whipped foaming scrub</strong>, available in a variety of scents 
+      Each jar is filled with <strong>350g of luxurious whipped foaming scrub</strong>, available in a variety of scents 
       to match your vibe or brand.
     </p>
     <p><strong>Minimum Order: 15 jars</strong></p>
